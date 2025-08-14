@@ -26,7 +26,7 @@ The 3D mesh is rendered inside a VR scene, where the user can teleport around an
 
 # Video
 
-A video of the online 3D reconstruction pipeline being used can be found [![here]([https://raw.githubusercontent.com/username/repository/branch/path/to/thumbnail.jpg)](https://raw.githubusercontent.com/username/repository/branch/path/to/video.mp4](https://www.youtube.com/watch?v=WibrHY4XUO8&t=45s))]
+A video of the online 3D reconstruction pipeline being used can be found [here][https://www.youtube.com/watch?v=WibrHY4XUO8&t=45s]
 
 # Supported Software Versions
 
