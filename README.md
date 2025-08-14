@@ -17,7 +17,7 @@ The 3D reconstruction pipeline is separated into two main systes:
 1. ROS2 system (ROS2 Humble)
 2. VR system (Unity)
 
-Communication and data transfer between the two systems is possible using Unity's [ROS-TCP Connector][https://github.com/Unity-Technologies/ROS-TCP-Connector]. 
+Communication and data transfer between the two systems is possible using Unity's ROS-TCP Connector.
 
 The 3D reconstruction pipeline expects a ROS2 message of PointCloud2 type, which is then read by a dedicated ROS2 subscriber script in Unity. The point cloud is then sent to the TSDF Constructor to produce a TSDF, and then to the Mesh Generator, which uses the Marching Cubes algorithm to reconstruct the mesh from the TSDF data. This procedure is performed online (near real-time), as long as there is Point Cloud data sent over from the rover. 
 
@@ -26,7 +26,7 @@ The 3D mesh is rendered inside a VR scene, where the user can teleport around an
 
 # Video
 
-A video of the online 3D reconstruction pipeline being used can be found [here][https://www.youtube.com/watch?v=WibrHY4XUO8&t=45s]
+A video of the online 3D reconstruction pipeline being used can be found [![here](https://img.youtube.com/vi/WibrHY4XUO8/maxresdefault.jpg)](https://www.youtube.com/watch?v=WibrHY4XUO8)
 
 # Supported Software Versions
 
